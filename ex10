@@ -1,0 +1,11 @@
+
+############################################################
+# Descrição: Mostra os números ímpares de 0 até 20.
+# Parâmetros de entrada: Não possui entrada do usuário.
+# Valores de saída: Todos os números ímpares entre 0 e 20.
+# Autor: Luiz Eduardo Santos Costa
+############################################################
+
+for numero in range(0, 21):
+    if numero % 2 != 0:
+        print(numero)
