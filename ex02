@@ -3,7 +3,7 @@
 # Descrição: Verifica se um valor é positivo ou negativo.
 # Parâmetros de entrada: Um número informado pelo usuário.
 # Valores de saída: Informa se é positivo, negativo ou zero.
-# Autor: SEU NOME
+# Autor: Luiz Eduardo Santos Costa 
 ############################################################
 
 valor = float(input("Digite um valor: "))
