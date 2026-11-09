@@ -1,0 +1,11 @@
+
+############################################################
+# Descrição: Mostra os quadrados dos números de 15 até 200.
+# Parâmetros de entrada: Não possui entrada do usuário.
+# Valores de saída: Quadrado de cada número de 15 até 200.
+# Autor: Luiz Eduardo Santos Costa
+############################################################
+
+for numero in range(15, 201):
+    quadrado = numero ** 2
+    print(numero, "ao quadrado =", quadrado)
