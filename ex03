@@ -3,7 +3,7 @@
 # Descrição: Identifica o sexo informado por uma letra.
 # Parâmetros de entrada: Uma letra F ou M.
 # Valores de saída: Feminino, Masculino ou Sexo Inválido.
-# Autor: SEU NOME
+# Autor: Luiz Eduardo Santos Costa 
 ############################################################
 
 letra = input("Digite F ou M: ").strip().upper()
