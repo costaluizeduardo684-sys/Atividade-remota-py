@@ -1,0 +1,18 @@
+
+############################################################
+# Descrição: Mostra uma saudação de acordo com o turno.
+# Parâmetros de entrada: Uma letra M, V ou N.
+# Valores de saída: Bom Dia, Boa Tarde, Boa Noite ou inválido.
+# Autor: Luiz Eduardo Santos Costa
+############################################################
+
+turno = input("Digite M, V ou N: ").strip().upper()
+
+if turno == "M":
+    print("Bom Dia!")
+elif turno == "V":
+    print("Boa Tarde!")
+elif turno == "N":
+    print("Boa Noite!")
+else:
+    print("Valor Inválido!")
